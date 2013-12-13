@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
 @Controller
-public class FileController {
+public class FileController extends BaseController {
 
 	@Autowired
 	private DadoofileService dfService;

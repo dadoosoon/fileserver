@@ -85,4 +85,7 @@ public class DadoofileService {
 		}
 	}
 
+	public Dadoofile fetchByMd5(String md5) {
+		return this.dfDao.fetchByMd5(md5);
+	}
 }
